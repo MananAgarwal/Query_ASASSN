@@ -106,5 +106,5 @@ if __name__ == "__main__":
     ra = sys.argv[1]      # deg
     dec = sys.argv[2]     # deg
     radius = sys.argv[3]  # arcmin
-    # query_ASASSN_photometry_database(ra, dec, radius)
+    query_ASASSN_photometry_database(ra, dec, radius)
     query_ASASSN_variable_stars_database(ra, dec, radius)
